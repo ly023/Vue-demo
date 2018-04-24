@@ -81,6 +81,7 @@ module.exports = {
     alias: {
       assets: path.join(root, 'src/assets'),
       components: path.join(root, 'src/components'),
+      directives: path.join(root, 'src/directives'),
       views: path.join(root, 'src/views')
     },
     extensions: ['.js', '.vue'] // 引用js和vue文件可以省略后缀名

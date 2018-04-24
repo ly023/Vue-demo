@@ -1,5 +1,6 @@
 import App from '../app'
 import TAB from 'views/tab'
+import Scroll from 'views/scroll'
 
 export default [
   {
@@ -10,7 +11,11 @@ export default [
     path: '/tab',
     name: 'tab',
     component: TAB
+  },
+  {
+    path: '/scroll',
+    name: 'scroll',
+    component: Scroll
   }
-
 ]
 
