@@ -61,7 +61,7 @@
 
 </script>
 
-<style lang="scss" type="text/scss">
+<style lang="scss">
     .list{
         padding: 0 20px;
         list-style: none;
@@ -76,10 +76,11 @@
             width: 1px;
             style: solid;
         }
+
         a {
             color: #444;
             font-size: 16px;
-        }
+       }
     }
 
     .loading {

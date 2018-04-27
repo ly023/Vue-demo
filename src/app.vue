@@ -25,13 +25,12 @@
   export default component
 </script>
 
-<style lang="scss" type="text/scss">
+<style lang="scss">
     .links {
         a {
             display: inline-block;
             margin: 10px 20px;
             color: #42b983;
-
         }
     }
 </style>

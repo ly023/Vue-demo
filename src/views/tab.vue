@@ -38,7 +38,7 @@
 
 </script>
 
-<style>
+<style lang="scss">
     .tab-content {
         padding: 10px 40px;
     }

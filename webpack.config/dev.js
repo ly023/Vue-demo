@@ -9,6 +9,7 @@ const config = require('./config');
 const baseConfig = require('./base');
 
 module.exports = merge(baseConfig, {
+  mode: 'development',
   output: {
     publicPath: '/'  // 处理静态资源引用地址
   },

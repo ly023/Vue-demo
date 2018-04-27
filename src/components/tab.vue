@@ -35,7 +35,7 @@
 
 </script>
 
-<style lang="scss" type="text/scss">
+<style lang="scss">
     $main-color: #3399ff;
 
     %activeStyle {
