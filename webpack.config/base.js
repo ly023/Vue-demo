@@ -1,5 +1,4 @@
 const path = require('path');
-const autoprefixer = require('autoprefixer'); // 自动添加浏览器前缀
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const { VueLoaderPlugin } = require('vue-loader');
 
@@ -31,12 +30,7 @@ module.exports = {
               ],
               fallback: 'vue-style-loader'
             }
-          },
-          postcss: [
-            autoprefixer({
-              browsers: ['last 10 Chrome versions', 'Firefox > 20', 'Safari >= 6', 'ie >= 9']
-            })
-          ]
+          }
         }
       },
       // 处理js中引入的css
